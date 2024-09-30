@@ -1,36 +1,32 @@
 ﻿using LotteryGame.Dtos;
 using LotteryGame.Enums;
+using LotteryGame.Formatters;
+using LotteryGame.Interfaces;
 using LotteryGame.Services;
+using Moq;
 
 namespace LotteryGameTest.ServiceTests
 {
     public class NotifyWinnersServiceTests
     {
         [Fact]
-        public void NotifyWinners_ShouldDisplayWinnersInCorrectOrder()
+        public void NotifyWinners_ShouldCallOutputServiceWithFormattedMessage()
         {
             // Arrange
-            var winners = new List<WinnersDto>
-        {
-            new WinnersDto(Guid.NewGuid(), "Player 1", Guid.NewGuid(), PrizeType.GrandPrize, 50.00m),
-            new WinnersDto(Guid.NewGuid(), "Player 2", Guid.NewGuid(), PrizeType.SecondTier, 10.00m)
-        };
-            var notifyWinnersService = new NotifyWinnersService();
+            var mockOutputService = new Mock<IOutputService>();
+            var mockFormatter = new Mock<INotificationFormatter>();
+            mockFormatter.Setup(f => f.FormatWinners(It.IsAny<List<WinnersDto>>(), It.IsAny<decimal>()))
+                .Returns("Formatted winners message");
 
-            var output = new StringWriter();
-            Console.SetOut(output);
+            var notifyWinnersService = new NotifyWinnersService(mockOutputService.Object, mockFormatter.Object);
+            var winners = new List<WinnersDto>();  // Empty list for this example
 
             // Act
-            notifyWinnersService.NotifyWinners(winners, 100);
+            notifyWinnersService.NotifyWinners(winners, 100.00m);
 
             // Assert
-            var consoleOutput = output.ToString();
-            Assert.Contains("Player 1", consoleOutput);
-            Assert.Contains("Player 2", consoleOutput);
-            Assert.Contains("Grand Prize", consoleOutput);
-            Assert.Contains("Second Tier", consoleOutput);
-            Assert.Contains("House Revenue", consoleOutput);
-            Assert.True(consoleOutput.IndexOf("Player 1") < consoleOutput.IndexOf("Player 2"));
+            mockOutputService.Verify(o => o.WriteMessage("Formatted winners message"), Times.Once);
         }
+
     }
 }

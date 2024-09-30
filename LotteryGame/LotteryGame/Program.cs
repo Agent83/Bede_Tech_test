@@ -1,4 +1,5 @@
-﻿using LotteryGame.Interfaces;
+﻿using LotteryGame.Formatters;
+using LotteryGame.Interfaces;
 using LotteryGame.Models;
 using LotteryGame.Services;
 using System;
@@ -10,17 +11,21 @@ namespace LotteryGame
     {
         static void Main(string[] args)
         {
-           
+            IOutputService outputService = new ConsoleOutputService();
+            var welcomeFormatter = new WelcomeAndCpuPlayersFormatter();
+
             IPlayerSetupService playerSetupService = new PlayerSetupService();
             ITicketService ticketService = new TicketService();
             IPrizeDistributionService prizeDistributionService = new PrizeDistributionService();
-            INotifyWinnersService notifyWinnersService = new NotifyWinnersService();
+            INotifyWinnersService notifyWinnersService = new NotifyWinnersService(outputService, new ConsoleNotificationFormatter());
 
             ILotteryService lotteryService = new LotteryService(
                 playerSetupService,
                 ticketService,
                 prizeDistributionService,
-                notifyWinnersService
+                notifyWinnersService,
+                outputService,
+                welcomeFormatter
             );
 
             lotteryService.RunLottery();

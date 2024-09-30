@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGameTest\\LotteryGameTest.csproj": {}
+    "C:\\Development\\Bede_Techtest\\LotteryGame\\LotteryGameTest\\LotteryGameTest.csproj": {}
   },
   "projects": {
-    "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGameTest\\LotteryGameTest.csproj": {
+    "C:\\Development\\Bede_Techtest\\LotteryGame\\LotteryGameTest\\LotteryGameTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGameTest\\LotteryGameTest.csproj",
+        "projectUniqueName": "C:\\Development\\Bede_Techtest\\LotteryGame\\LotteryGameTest\\LotteryGameTest.csproj",
         "projectName": "LotteryGameTest",
-        "projectPath": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGameTest\\LotteryGameTest.csproj",
+        "projectPath": "C:\\Development\\Bede_Techtest\\LotteryGame\\LotteryGameTest\\LotteryGameTest.csproj",
         "packagesPath": "C:\\Users\\alder\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGameTest\\obj\\",
+        "outputPath": "C:\\Development\\Bede_Techtest\\LotteryGame\\LotteryGameTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alder\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\LotteryGame.csproj": {
-                "projectPath": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\LotteryGame.csproj"
+              "C:\\Development\\Bede_Techtest\\LotteryGame\\LotteryGame\\LotteryGame.csproj": {
+                "projectPath": "C:\\Development\\Bede_Techtest\\LotteryGame\\LotteryGame\\LotteryGame.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\LotteryGame.csproj": {
+    "C:\\Development\\Bede_Techtest\\LotteryGame\\LotteryGame\\LotteryGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\LotteryGame.csproj",
+        "projectUniqueName": "C:\\Development\\Bede_Techtest\\LotteryGame\\LotteryGame\\LotteryGame.csproj",
         "projectName": "LotteryGame",
-        "projectPath": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\LotteryGame.csproj",
+        "projectPath": "C:\\Development\\Bede_Techtest\\LotteryGame\\LotteryGame\\LotteryGame.csproj",
         "packagesPath": "C:\\Users\\alder\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\obj\\",
+        "outputPath": "C:\\Development\\Bede_Techtest\\LotteryGame\\LotteryGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alder\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,4 +1,5 @@
 ﻿using LotteryGame.Dtos;
+using LotteryGame.Formatters;
 using LotteryGame.Interfaces;
 using LotteryGame.Models;
 using System;
@@ -15,14 +16,23 @@ namespace LotteryGame.Services
         private readonly ITicketService _ticketService;
         private readonly IPrizeDistributionService _prizeDistributionService;
         private readonly INotifyWinnersService _notifyWinnersService;
+        private readonly IOutputService _outputService;
+        private readonly WelcomeAndCpuPlayersFormatter _formatter;
 
-        public LotteryService(IPlayerSetupService playerSetupService, ITicketService ticketService, 
-                              IPrizeDistributionService prizeDistributionService, INotifyWinnersService notifyWinnersService)
+        public LotteryService(IPlayerSetupService playerSetupService,
+                              ITicketService ticketService, 
+                              IPrizeDistributionService prizeDistributionService, 
+                              INotifyWinnersService notifyWinnersService,
+                              IOutputService outputService,
+                              WelcomeAndCpuPlayersFormatter formatter)
         {
             _playerSetupService = playerSetupService;
             _ticketService = ticketService;
             _prizeDistributionService = prizeDistributionService;
             _notifyWinnersService = notifyWinnersService;
+            _outputService = outputService;
+            _formatter = formatter;
+
         }
 
         public void RunLottery()
@@ -48,14 +58,13 @@ namespace LotteryGame.Services
         }
         public void DisplayWelcomeMessage(Player player, decimal ticketPrice)
         {
-            Console.WriteLine($"Welcome to the Bede Lottery, {player.Name}!\n");
-            Console.WriteLine($"* Your digital balance: ${player.Balance}");
-            Console.WriteLine($"* Ticket Price: ${ticketPrice} each\n");
+            var message = _formatter.FormatWelcomeMessage(player, ticketPrice);
+            _outputService.WriteMessage(message);
         }
-        public static void DisplayCpuPlayersMessage(List<Player> players)
+        public void DisplayCpuPlayersMessage(List<Player> players)
         {
-            int cpuCount = players.Count - 1;
-            Console.WriteLine($"\n{cpuCount} other CPU players also purchased tickets\n");
+           var message = _formatter.FormatCpuPlayersMessage(players);
+           _outputService.WriteMessage(message);   
         }
     }
 }

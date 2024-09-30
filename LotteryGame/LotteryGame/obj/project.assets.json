@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\LotteryGame.csproj",
+      "projectUniqueName": "C:\\Development\\Bede_Techtest\\LotteryGame\\LotteryGame\\LotteryGame.csproj",
       "projectName": "LotteryGame",
-      "projectPath": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\LotteryGame.csproj",
+      "projectPath": "C:\\Development\\Bede_Techtest\\LotteryGame\\LotteryGame\\LotteryGame.csproj",
       "packagesPath": "C:\\Users\\alder\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\obj\\",
+      "outputPath": "C:\\Development\\Bede_Techtest\\LotteryGame\\LotteryGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alder\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,5 +1,4 @@
 ﻿using LotteryGame.Dtos;
-using LotteryGame.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace LotteryGame.Interfaces
 {
-    public interface INotifyWinnersService
+    public interface INotificationFormatter
     {
-        void NotifyWinners(List<WinnersDto> winnersList, decimal totalRevenue);
+        string FormatWinners(List<WinnersDto> winners, decimal houseProfit);
     }
 }

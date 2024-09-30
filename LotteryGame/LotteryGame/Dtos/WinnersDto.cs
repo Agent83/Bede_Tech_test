@@ -12,15 +12,15 @@ namespace LotteryGame.Dtos
         public Guid PlayerId { get; set; }
         public string PlayerName { get; set; }
         public Guid TicketId { get; set; }
-        public PrizeType Prize { get; set; }
+        public PrizeType PrizeType { get; set; }
         public decimal PrizeAmount { get; set; }
 
-        public WinnersDto(Guid playerId, string playerName, Guid ticketId, PrizeType prize, decimal prizeAmount)
+        public WinnersDto(Guid playerId, string playerName, Guid ticketId, PrizeType prizeType, decimal prizeAmount)
         {
             PlayerId = playerId;
             PlayerName = playerName;
             TicketId = ticketId;
-            Prize = prize;
+            PrizeType = prizeType;
             PrizeAmount = prizeAmount;
         }
     }
