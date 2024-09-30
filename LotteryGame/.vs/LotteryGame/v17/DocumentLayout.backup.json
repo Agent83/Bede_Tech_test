@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Development\\Bede_Tech_test\\LotteryGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37D83363-497D-47A3-BCC6-BC0F3DD6045E}|LotteryGame\\LotteryGame.csproj|c:\\development\\bede_tech_test\\lotterygame\\lotterygame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D83363-497D-47A3-BCC6-BC0F3DD6045E}|LotteryGame\\LotteryGame.csproj|solutionrelative:lotterygame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D83363-497D-47A3-BCC6-BC0F3DD6045E}|LotteryGame\\LotteryGame.csproj|c:\\development\\bede_tech_test\\lotterygame\\lotterygame\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D83363-497D-47A3-BCC6-BC0F3DD6045E}|LotteryGame\\LotteryGame.csproj|solutionrelative:lotterygame\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D83363-497D-47A3-BCC6-BC0F3DD6045E}|LotteryGame\\LotteryGame.csproj|c:\\development\\bede_tech_test\\lotterygame\\lotterygame\\services\\prizedistributionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D83363-497D-47A3-BCC6-BC0F3DD6045E}|LotteryGame\\LotteryGame.csproj|solutionrelative:lotterygame\\services\\prizedistributionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D83363-497D-47A3-BCC6-BC0F3DD6045E}|LotteryGame\\LotteryGame.csproj|c:\\development\\bede_tech_test\\lotterygame\\lotterygame\\services\\playersetupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D83363-497D-47A3-BCC6-BC0F3DD6045E}|LotteryGame\\LotteryGame.csproj|solutionrelative:lotterygame\\services\\playersetupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D83363-497D-47A3-BCC6-BC0F3DD6045E}|LotteryGame\\LotteryGame.csproj|c:\\development\\bede_tech_test\\lotterygame\\lotterygame\\services\\notifywinnersservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D83363-497D-47A3-BCC6-BC0F3DD6045E}|LotteryGame\\LotteryGame.csproj|solutionrelative:lotterygame\\services\\notifywinnersservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D83363-497D-47A3-BCC6-BC0F3DD6045E}|LotteryGame\\LotteryGame.csproj|c:\\development\\bede_tech_test\\lotterygame\\lotterygame\\services\\lotteryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D83363-497D-47A3-BCC6-BC0F3DD6045E}|LotteryGame\\LotteryGame.csproj|solutionrelative:lotterygame\\services\\lotteryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9CE1755-1796-4C51-841B-8400662A053D}|LotteryGameTest\\LotteryGameTest.csproj|c:\\development\\bede_tech_test\\lotterygame\\lotterygametest\\servicetests\\notifywinnersservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9CE1755-1796-4C51-841B-8400662A053D}|LotteryGameTest\\LotteryGameTest.csproj|solutionrelative:lotterygametest\\servicetests\\notifywinnersservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9CE1755-1796-4C51-841B-8400662A053D}|LotteryGameTest\\LotteryGameTest.csproj|c:\\development\\bede_tech_test\\lotterygame\\lotterygametest\\servicetests\\playersetupservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9CE1755-1796-4C51-841B-8400662A053D}|LotteryGameTest\\LotteryGameTest.csproj|solutionrelative:lotterygametest\\servicetests\\playersetupservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9CE1755-1796-4C51-841B-8400662A053D}|LotteryGameTest\\LotteryGameTest.csproj|c:\\development\\bede_tech_test\\lotterygame\\lotterygametest\\servicetests\\prizedistributionservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9CE1755-1796-4C51-841B-8400662A053D}|LotteryGameTest\\LotteryGameTest.csproj|solutionrelative:lotterygametest\\servicetests\\prizedistributionservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\Program.cs",
+              "RelativeDocumentMoniker": "LotteryGame\\Program.cs",
+              "ToolTip": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\Program.cs",
+              "RelativeToolTip": "LotteryGame\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T10:56:32.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\Services\\TicketService.cs",
+              "RelativeDocumentMoniker": "LotteryGame\\Services\\TicketService.cs",
+              "ToolTip": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\Services\\TicketService.cs",
+              "RelativeToolTip": "LotteryGame\\Services\\TicketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T10:56:00.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrizeDistributionService.cs",
+              "DocumentMoniker": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\Services\\PrizeDistributionService.cs",
+              "RelativeDocumentMoniker": "LotteryGame\\Services\\PrizeDistributionService.cs",
+              "ToolTip": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\Services\\PrizeDistributionService.cs",
+              "RelativeToolTip": "LotteryGame\\Services\\PrizeDistributionService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAE0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T10:55:03.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerSetupService.cs",
+              "DocumentMoniker": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\Services\\PlayerSetupService.cs",
+              "RelativeDocumentMoniker": "LotteryGame\\Services\\PlayerSetupService.cs",
+              "ToolTip": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\Services\\PlayerSetupService.cs",
+              "RelativeToolTip": "LotteryGame\\Services\\PlayerSetupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T10:54:51.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LotteryService.cs",
+              "DocumentMoniker": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\Services\\LotteryService.cs",
+              "RelativeDocumentMoniker": "LotteryGame\\Services\\LotteryService.cs",
+              "ToolTip": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\Services\\LotteryService.cs",
+              "RelativeToolTip": "LotteryGame\\Services\\LotteryService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAADgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T10:53:54.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NotifyWinnersService .cs",
+              "DocumentMoniker": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\Services\\NotifyWinnersService .cs",
+              "RelativeDocumentMoniker": "LotteryGame\\Services\\NotifyWinnersService .cs",
+              "ToolTip": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGame\\Services\\NotifyWinnersService .cs",
+              "RelativeToolTip": "LotteryGame\\Services\\NotifyWinnersService .cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T10:52:34.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PrizeDistributionServiceTests.cs",
+              "DocumentMoniker": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGameTest\\ServiceTests\\PrizeDistributionServiceTests.cs",
+              "RelativeDocumentMoniker": "LotteryGameTest\\ServiceTests\\PrizeDistributionServiceTests.cs",
+              "ToolTip": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGameTest\\ServiceTests\\PrizeDistributionServiceTests.cs",
+              "RelativeToolTip": "LotteryGameTest\\ServiceTests\\PrizeDistributionServiceTests.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T10:24:55.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotifyWinnersServiceTests.cs",
+              "DocumentMoniker": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGameTest\\ServiceTests\\NotifyWinnersServiceTests.cs",
+              "RelativeDocumentMoniker": "LotteryGameTest\\ServiceTests\\NotifyWinnersServiceTests.cs",
+              "ToolTip": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGameTest\\ServiceTests\\NotifyWinnersServiceTests.cs",
+              "RelativeToolTip": "LotteryGameTest\\ServiceTests\\NotifyWinnersServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:52:19.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerSetupServiceTests.cs",
+              "DocumentMoniker": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGameTest\\ServiceTests\\PlayerSetupServiceTests.cs",
+              "RelativeDocumentMoniker": "LotteryGameTest\\ServiceTests\\PlayerSetupServiceTests.cs",
+              "ToolTip": "C:\\Development\\Bede_Tech_test\\LotteryGame\\LotteryGameTest\\ServiceTests\\PlayerSetupServiceTests.cs",
+              "RelativeToolTip": "LotteryGameTest\\ServiceTests\\PlayerSetupServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:36:56.253Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

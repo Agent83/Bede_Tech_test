@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryGame", "LotteryGame\LotteryGame.csproj", "{37D83363-497D-47A3-BCC6-BC0F3DD6045E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryGameTest", "LotteryGameTest\LotteryGameTest.csproj", "{D9CE1755-1796-4C51-841B-8400662A053D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37D83363-497D-47A3-BCC6-BC0F3DD6045E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D83363-497D-47A3-BCC6-BC0F3DD6045E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D83363-497D-47A3-BCC6-BC0F3DD6045E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D83363-497D-47A3-BCC6-BC0F3DD6045E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9CE1755-1796-4C51-841B-8400662A053D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CE1755-1796-4C51-841B-8400662A053D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9CE1755-1796-4C51-841B-8400662A053D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9CE1755-1796-4C51-841B-8400662A053D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {597FCAB7-A10F-42E6-A84A-C472846E2D68}
+	EndGlobalSection
+EndGlobal
